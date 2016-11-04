@@ -1,36 +1,8 @@
 # Content: Unsupervised Learning
 ## Project: Creating Customer Segments
 
-### Install
-
-This project requires **Python 2.7** and the following Python libraries installed:
-
-- [NumPy](http://www.numpy.org/)
-- [Pandas](http://pandas.pydata.org)
-- [matplotlib](http://matplotlib.org/)
-- [scikit-learn](http://scikit-learn.org/stable/)
-
-You will also need to have software installed to run and execute a [Jupyter Notebook](http://ipython.org/notebook.html)
-
-If you do not have Python installed yet, it is highly recommended that you install the [Anaconda](http://continuum.io/downloads) distribution of Python, which already has the above packages and more included. Make sure that you select the Python 2.7 installer and not the Python 3.x installer. 
-
-### Code
-
-Template code is provided in the `customer_segments.ipynb` notebook file. You will also be required to use the included `visuals.py` Python file and the `housing.csv` dataset file to complete your work. While some code has already been implemented to get you started, you will need to implement additional functionality when requested to successfully complete the project. Note that the code included in `visuals.py` is meant to be used out-of-the-box and not intended for students to manipulate. If you are interested in how the visualizations are created in the notebook, please feel free to explore this Python file.
-
-### Run
-
-In a terminal or command window, navigate to the top-level project directory `customer_segments/` (that contains this README) and run one of the following commands:
-
-```bash
-ipython notebook customer_segments.ipynb
-```  
-or
-```bash
-jupyter notebook customer_segments.ipynb
-```
-
-This will open the Jupyter Notebook software and project file in your browser.
+## Introduction
+In this project you will apply unsupervised learning techniques on product spending data collected for customers of a wholesale distributor in Lisbon, Portugal to identify customer segments hidden in the data. You will first explore the data by selecting a small subset to sample and determine if any product categories highly correlate with one another. Afterwards, you will preprocess the data by scaling each product category and then identifying (and removing) unwanted outliers. With the good, clean customer spending data, you will apply PCA transformations to the data and implement clustering algorithms to segment the transformed customer data. Finally, you will compare the segmentation found with an additional labeling and consider ways this information could assist the wholesale distributor with future service changes.
 
 ## Data
 
