@@ -1,30 +1,7 @@
 # Project 2: Supervised Learning
 ## Building a Student Intervention System
 
-### Install
-
-This project requires **Python 2.7** and the following Python libraries installed:
-
-- [NumPy](http://www.numpy.org/)
-- [Pandas](http://pandas.pydata.org)
-- [scikit-learn](http://scikit-learn.org/stable/)
-
-You will also need to have software installed to run and execute an [iPython Notebook](http://ipython.org/notebook.html)
-
-Udacity recommends our students install [Anaconda](https://www.continuum.io/downloads), a pre-packaged Python distribution that contains all of the necessary libraries and software for this project. 
-
-### Code
-
-Template code is provided in the notebook `student_intervention.ipynb` notebook file. While some code has already been implemented to get you started, you will need to implement additional functionality when requested to successfully complete the project.
-
-### Run
-
-In a terminal or command window, navigate to the top-level project directory `student_intervention/` (that contains this README) and run one of the following commands:
-
-```ipython notebook student_intervention.ipynb```  
-```jupyter notebook student_intervention.ipynb```
-
-This will open the iPython Notebook software and project file in your browser.
+The aim of this project was to use Supervised Learning techniques to build a model which would predict whether a student needs an intervention in school or not. The data was provided by Udacity along with some template code. 
 
 ## Data
 
